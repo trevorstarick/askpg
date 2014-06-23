@@ -1,20 +1,36 @@
+html,body {
+    height: 100%;
+}
+
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background: #2ecc71;
+  background: #fa6800;
   height: 100%;
+  display: table; 
+  margin: 0 auto;
 }
-h1 {
+
+h1, p {
   color: #fff;
 }
+
 a {
   color: #00b7ff;
 }
 .centerd {
-  margin: auto;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
+  text-align: center;
+}
+
+.pg { 
+  -webkit-transition: all 0s ease-in-out;
+}
+.pg:hover { 
+  -webkit-transform: scale(1.01);
+}
+
+.container {  
+  height: 100%;
+  display: table-cell;   
+  vertical-align: middle;    
 }
